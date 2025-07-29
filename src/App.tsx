@@ -1,6 +1,12 @@
+import GlobalStyles from "./styles/global";
+import SignIn from "./pages/SignIn";
+
 function App() {
   return (
-    <h1>Olá mundo =]</h1>
+    <>
+      <SignIn />
+      <GlobalStyles />
+    </>
   );
 }
 
